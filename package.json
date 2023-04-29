@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "todo-api",
+  "description": "<!-- TABLE OF CONTENTS -->\r <!-- <details> -->\r   <summary>Table of Contents</summary>\r   <ol>\r     <li>\r       <a href=\"#about-the-project\">About The Project And Our Motivation</a>\r       <ul>\r         <li><a href=\"#built-with\">Built With</a></li>\r       </ul>\r     </li>\r     <li>\r       <a href=\"#getting-started\">Getting Started</a>\r       <ul>\r         <li><a href=\"#prerequisites\">Prerequisites</a></li>\r         <li><a href=\"#installation\">Installation</a></li>\r       </ul>\r     </li>\r     <li><a href=\"#contact\">Contact</a></li>\r     <li><a href=\"#project-links\">Project Links</a></li>",
+  "version": "1.0.0",
+  "main": "database.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nedb": "^1.8.0",
+    "uuid": "^9.0.0"
+  }
+}
